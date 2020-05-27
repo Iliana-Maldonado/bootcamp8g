@@ -1,0 +1,49 @@
+.square-wrapper{
+    border: 3px solid red;
+}
+.square{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+.peru{
+    background: peru;
+    border: 1px solid peru;
+}
+.purple{
+    background: purple;
+    border: 1px solid purple;
+}
+.navy{
+    background: navy;
+    border: 1px solid navy;
+}
+.pink{
+    background: pink;
+    border: 1px solid pink;
+}
+@media only screen and (min-width:768px){
+    .square{
+        border: 1px solid green;
+    }
+}
+@media only screen and (min-width:768px){
+    .peru{
+        background: indigo;
+    }
+}
+@media only screen and (min-width:768px){
+    .purple{
+        background: lawngreen;
+    }
+}
+@media only screen and (min-width:768px){
+    .navy{
+        background: lightseagreen;
+    }
+}
+@media only screen and (min-width:768px){
+    .pink{
+        background: magenta;
+    }
+}
