@@ -1,19 +1,26 @@
-const userTable = document.querySelector('#user-table tbody');
+const printResponse = ( data ) => {
+    console.log (data)
+}
+const getKodersData = () => {
 
-function User({ age, mail, name }) {
+    var xhttp = new XMLHttpRequest();
 
-    let tr = document.createElement('tr'),
-        tdName = document.createElement('td'),
-        tdMail = document.createElement('td'),
-        tdAge = document.createElement('td');
+    const userTable = document.querySelector('#user-table tbody');
 
-    tdName.innerHTML = name;
-    tdMail.innerHTML = mail;
-    tdAge.innerHTML = age;
+    function User({ age, mail, name }) {
 
-    tr.appendChild(tdName);
-    tr.appendChild(tdMail);
-    tr.appendChild(tdAge);
+        let tr = document.createElement('tr'),
+            tdName = document.createElement('td'),
+            tdMail = document.createElement('td'),
+            tdAge = document.createElement('td');
+
+        tdName.innerHTML = name;
+        tdMail.innerHTML = mail;
+        tdAge.innerHTML = age;
+
+        tr.appendChild(tdName);
+        tr.appendChild(tdMail);
+        tr.appendChild(tdAge);
 
     userTable.appendChild(tr)
 }
