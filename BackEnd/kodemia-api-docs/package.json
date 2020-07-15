@@ -1,0 +1,15 @@
+{
+  "name": "kodemia-api-docs",
+  "version": "1.0.0",
+  "description": "first API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "kodemia"
+  ],
+  "author": "Iliana Maldonado",
+  "license": "ISC"
+}
